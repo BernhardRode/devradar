@@ -1,155 +1,203 @@
 [meta]
-title = "Mortys personal~ radar"
+title = "Bernhards's skillradar"
 categories = [ "Tools", "Techniques", "Platforms", "Frameworks" ]
 levels = [ "Novice", "Intermediate", "Advanced", "Veteran" ]
 
 [[blips]]
-category = 0
-title = "GitLab CI"
-level = 3
-
-  [[blips.changes]]
-  date = "2018-07"
-  newLevel = 3
-
-[[blips]]
-category = 3
-title = "Go"
-level = 0
-
-  [[blips.changes]]
-  date = "2018-12"
-  newLevel = 0
-  text = "Superfast, cross-compiled, multi-platform executables"
-
-[[blips]]
 category = 2
-link = "https:////kubernetes.io"
-description = "Containers at scale"
+link = "https://k8s.io"
+description = ""
 title = "Kubernetes"
+level = 3
+
+  [[blips.changes]]
+  date = "2019-08"
+  newLevel = 3
+
+[[blips]]
+category = 2
+link = "https://azure.com"
+description = ""
+title = "Azure"
+level = 4
+
+  [[blips.changes]]
+  date = "2019-01"
+  newLevel = 4
+
+[[blips]]
+category = 2
+link = "https://aws.com"
+description = ""
+title = "AWS"
 level = 0
 
   [[blips.changes]]
-  date = "2018-07"
+  date = "2019-08"
   newLevel = 0
 
 [[blips]]
 category = 2
-link = "https:////docker.io"
-description = "Container all the things"
-title = "Docker"
+link = "https://cloud.google.com"
+description = ""
+title = "Google Cloud"
 level = 2
 
   [[blips.changes]]
-  date = "2019-03"
+  date = "2019-08"
   newLevel = 2
 
 [[blips]]
+category = 2
+link = "https://firebase.com"
+description = ""
+title = "Firebase"
+level = 3
+
+  [[blips.changes]]
+  date = "2019-08"
+  newLevel = 3
+
+[[blips]]
+category = 3
+link = "https://reactjs.org"
+description = ""
+title = "React"
+level = 3
+
+  [[blips.changes]]
+  date = "2019-08"
+  newLevel = 3
+
+[[blips]]
+category = 3
+link = "https://vuejs.org"
+description = ""
+title = "Vue.js"
+level = 2
+
+  [[blips.changes]]
+  date = "2019-08"
+  newLevel = 2
+
+[[blips]]
+category = 3
+link = "https://nodejs.org"
+description = ""
+title = "Node.js"
+level = 4
+
+  [[blips.changes]]
+  date = "2019-08"
+  newLevel = 4
+
+[[blips]]
+category = 3
+link = "https://angular.io"
+description = ""
+title = "Angular"
+level = 4
+
+  [[blips.changes]]
+  date = "2019-08"
+  newLevel = 4  
+
+[[blibs]]
 category = 1
-description = "Treat your documentation like you treat code, git version, PR review, etc."
-title = "docs as code"
+title = "Infrastructure as Code"
+description = ""
 level = 2
 
-  [[blips.changes]]
-  date = "2019-03"
+  [[blibs.changes]]
+  date = "2019-08"
   newLevel = 2
-  text = "I am so good at this because I use it everywhere!"
 
-[[blips]]
-category = 0
-title = "Matlab"
+[[blibs]]
+category = 1
+title = "CI/CD"
+description = ""
+level = 5
+
+  [[blibs.changes]]
+  date = "2019-08"
+  newLevel = 5
+
+[[blibs]]
+category = 1
+title = "Test Driven Development"
+description = ""
+level = 5
+
+  [[blibs.changes]]
+  date = "2019-08"
+  newLevel = 5
+
+[[blibs]]
+category = 1
+title = "Software Architecture"
+description = ""
 level = 3
 
-  [[blips.changes]]
-  date = "2019-06"
+  [[blibs.changes]]
+  date = "2019-08"
   newLevel = 3
 
-[[blips]]
-category = 3
-title = "OpenCV"
-level = 3
-
-  [[blips.changes]]
-  date = "2019-06"
-  newLevel = 3
-
-[[blips]]
-category = 3
-title = "Python"
+[[blibs]]
+category = 1
+title = "Deeplearning"
+description = ""
 level = 1
 
-  [[blips.changes]]
-  date = "2019-06"
+  [[blibs.changes]]
+  date = "2019-08"
   newLevel = 1
 
-[[blips]]
-category = 3
-title = "Javascript"
+[[blibs]]
+category = 1
+title = "Data Analytics"
+description = ""
 level = 2
 
-  [[blips.changes]]
-  date = "2019-06"
+  [[blibs.changes]]
+  date = "2019-08"
   newLevel = 2
 
-[[blips]]
-category = 3
-title = "CSS"
-level = 3
-
-  [[blips.changes]]
-  date = "2019-06"
-  newLevel = 3
-
-[[blips]]
+[[blibs]]
 category = 1
 title = "Design"
+description = ""
+level = 5
+
+  [[blibs.changes]]
+  date = "2019-08"
+  newLevel = 5
+
+[[blibs]]
+category = 1
+title = "Static Site Generators"
+description = ""
 level = 3
 
-  [[blips.changes]]
-  date = "2019-06"
+  [[blibs.changes]]
+  date = "2019-08"
   newLevel = 3
 
-[[blips]]
+[[blibs]]
 category = 1
-title = "Deep Learning"
+title = "Docs as Code"
+description = ""
 level = 2
 
-  [[blips.changes]]
-  date = "2019-06"
+  [[blibs.changes]]
+  date = "2019-08"
   newLevel = 2
 
-[[blips]]
-category = 2
-title = "Blockchain"
-level = 2
+[[blibs]]
+category = 1
+title = "DevOps"
+description = ""
+level = 5
 
-  [[blips.changes]]
-  date = "2019-06"
-  newLevel = 2
-
-[[blips]]
-category = 0
-title = "Ansible"
-level = 0
-
-  [[blips.changes]]
-  date = "2019-06"
-  newLevel = 0
-
-[[blips]]
-category = 0
-title = "Azure RM"
-level = 1
-
-  [[blips.changes]]
-  date = "2019-06"
-  newLevel = 1
-
-[[blips]]
-category = 0
-title = "Chef"
-level = 2
-
-  [[blips.changes]]
-  date = "2019-06"
-  newLevel = 2
+  [[blibs.changes]]
+  date = "2019-08"
+  newLevel = 5
